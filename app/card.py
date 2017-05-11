@@ -13,9 +13,9 @@ class CardThread(Thread):
 
     def run(self):
         data = Soup(urllib.request.urlopen(self.url).read(), 'html.parser').find('div', {'class': 'word'})
-        self.data = {'word': str(data.find('div').text), 'description': self.setDescription(data.findAll('div')[2])}
+        self.data = {'word': str(data.find('div').text).upper(), 'description': CardThread.set_description(data.findAll('div')[2])}
 
-    def setDescription(self, in_obj):
+    def set_description(in_obj):
 
         string = ''
 
@@ -24,5 +24,13 @@ class CardThread(Thread):
                 string += "\n%s\n" % el.string.upper()
             elif el.name is not None:
                 string += "%s\n" % el.text
+
+        return string
+
+    def string(self):
+
+        string = self.data['word']
+        string += '\n'+'_'*10 + '\n\n'
+        string += self.data['description']
 
         return string

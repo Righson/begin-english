@@ -1,5 +1,4 @@
 import unittest
-# from bs4 import BeautifulSoup as Soup
 from app.card import CardThread
 
 

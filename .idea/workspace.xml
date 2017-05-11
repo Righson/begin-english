@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682a0a48-fdd1-4083-b5ec-d01f9e00b243" name="Default" comment="" />
+    <list default="true" id="682a0a48-fdd1-4083-b5ec-d01f9e00b243" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/cardmanager.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/commandlinelistner.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/cardmanagertest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/listenertest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/card.py" afterPath="$PROJECT_DIR$/app/card.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/be.py" afterPath="$PROJECT_DIR$/be.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/cardtest.py" afterPath="$PROJECT_DIR$/test/cardtest.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,14 +22,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cardtest.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/cardtest.py">
+      <file leaf-file-name="commandlinelistner.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/commandlinelistner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="be.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/be.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -27,8 +45,8 @@
       <file leaf-file-name="card.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/card.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="277">
+              <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -38,18 +56,39 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Python Unit Test" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/be.py" />
-        <option value="$PROJECT_DIR$/app/card.py" />
+        <option value="$PROJECT_DIR$/app/comand.py" />
         <option value="$PROJECT_DIR$/test/cardtest.py" />
+        <option value="$PROJECT_DIR$/test/commandtest.py" />
+        <option value="$PROJECT_DIR$/app/command.py" />
+        <option value="$PROJECT_DIR$/test/cardmanagertest.py" />
+        <option value="$PROJECT_DIR$/app/cardmanager.py" />
+        <option value="$PROJECT_DIR$/app/card.py" />
+        <option value="$PROJECT_DIR$/test/listenertest.py" />
+        <option value="$PROJECT_DIR$/be.py" />
+        <option value="$PROJECT_DIR$/app/commandlinelistner.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -75,20 +114,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="begin-english" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="begin-english" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="begin-english" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -120,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in cardtest.py">
+  <component name="RunManager" selected="Python.be">
     <configuration default="false" name="Unittests in cardtest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,6 +159,54 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test/cardtest.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in cardmanagertest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="begin-english" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/cardmanagertest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in listenertest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="begin-english" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/listenertest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="be" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="begin-english" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/be.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -200,12 +273,18 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in cardtest.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in cardmanagertest.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in listenertest.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python.be" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in cardtest.py" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.be" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in listenertest.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in cardmanagertest.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in cardtest.py" />
       </list>
     </recent_temporary>
   </component>
@@ -223,45 +302,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_cardtest_py - 2017.05.11 at 15h 31m 52s.xml">
-      <configuration name="Unittests in cardtest.py" configurationId="tests" />
+    <history-entry file="Unittests_in_listenertest_py - 2017.05.11 at 21h 31m 51s.xml">
+      <configuration name="Unittests in listenertest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_cardtest_py - 2017.05.11 at 15h 32m 14s.xml">
-      <configuration name="Unittests in cardtest.py" configurationId="tests" />
+    <history-entry file="Unittests_in_listenertest_py - 2017.05.11 at 21h 32m 03s.xml">
+      <configuration name="Unittests in listenertest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_cardtest_py - 2017.05.11 at 15h 34m 29s.xml">
-      <configuration name="Unittests in cardtest.py" configurationId="tests" />
+    <history-entry file="Unittests_in_listenertest_py - 2017.05.11 at 21h 32m 38s.xml">
+      <configuration name="Unittests in listenertest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_cardtest_py - 2017.05.11 at 15h 35m 11s.xml">
-      <configuration name="Unittests in cardtest.py" configurationId="tests" />
+    <history-entry file="Unittests_in_listenertest_py - 2017.05.11 at 21h 33m 08s.xml">
+      <configuration name="Unittests in listenertest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_cardtest_py - 2017.05.11 at 15h 41m 59s.xml">
-      <configuration name="Unittests in cardtest.py" configurationId="tests" />
+    <history-entry file="Unittests_in_listenertest_py - 2017.05.11 at 21h 33m 19s.xml">
+      <configuration name="Unittests in listenertest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_cardtest_py - 2017.05.11 at 15h 42m 51s.xml">
-      <configuration name="Unittests in cardtest.py" configurationId="tests" />
+    <history-entry file="Unittests_in_listenertest_py - 2017.05.11 at 21h 36m 11s.xml">
+      <configuration name="Unittests in listenertest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_cardtest_py - 2017.05.11 at 15h 43m 50s.xml">
-      <configuration name="Unittests in cardtest.py" configurationId="tests" />
+    <history-entry file="Unittests_in_listenertest_py - 2017.05.11 at 21h 47m 45s.xml">
+      <configuration name="Unittests in listenertest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_cardtest_py - 2017.05.11 at 15h 44m 20s.xml">
-      <configuration name="Unittests in cardtest.py" configurationId="tests" />
+    <history-entry file="Unittests_in_listenertest_py - 2017.05.11 at 21h 48m 14s.xml">
+      <configuration name="Unittests in listenertest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_cardtest_py - 2017.05.11 at 15h 44m 38s.xml">
-      <configuration name="Unittests in cardtest.py" configurationId="tests" />
+    <history-entry file="Unittests_in_listenertest_py - 2017.05.11 at 21h 48m 31s.xml">
+      <configuration name="Unittests in listenertest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_cardtest_py - 2017.05.11 at 15h 50m 38s.xml">
-      <configuration name="Unittests in cardtest.py" configurationId="tests" />
+    <history-entry file="Unittests_in_listenertest_py - 2017.05.11 at 21h 48m 51s.xml">
+      <configuration name="Unittests in listenertest.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3146176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -272,7 +353,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -285,31 +365,63 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/be.py">
+    <entry file="file://$PROJECT_DIR$/test/cardtest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/cardmanagertest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/listenertest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cardmanager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/card.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="277">
+          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/cardtest.py">
+    <entry file="file://$PROJECT_DIR$/be.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/commandlinelistner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
