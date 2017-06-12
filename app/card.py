@@ -13,9 +13,10 @@ class CardThread(Thread):
 
     def run(self):
         data = Soup(urllib.request.urlopen(self.url).read(), 'html.parser').find('div', {'class': 'word'})
-        self.data = {'word': str(data.find('div').text).upper(), 'description': CardThread.set_description(data.findAll('div')[2])}
+        self.data = {'word': str(data.find('div').text).upper(), 'description': CardThread.make_description(data.findAll('div')[2])}
 
-    def set_description(in_obj):
+    @staticmethod
+    def make_description(in_obj):
 
         string = ''
 
@@ -27,6 +28,7 @@ class CardThread(Thread):
 
         return string
 
+    @property
     def string(self):
 
         string = self.data['word']
@@ -34,3 +36,9 @@ class CardThread(Thread):
         string += self.data['description']
 
         return string
+
+    @property
+    def params(self):
+        eng, rus = map(lambda s: s.strip(), self.data['word'].split('—'))
+
+        return {'eng': eng, 'rus': rus, 'decr': self.data['description']}
